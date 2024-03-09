@@ -1,0 +1,55 @@
+
+
+
+/* Style the dropdown button */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9fa0a2de;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f2e4e4b4;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #e7d8d8;
+}
+
+/* Style the dropdown button */
+.dropdown button {
+    cursor: pointer;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+
+
+/* contact page */
+
